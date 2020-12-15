@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 
 let router = express.Router();
 
-const apiKey ='RGAPI-1dcea17b-aad4-4042-bfc7-dac41f82a770'
+const apiKey = process.env.RGAPI_KEY
 
 router.get('/:summonerName', (req,res)=>{
     const summonerName = req.params.summonerName;
