@@ -1,0 +1,2 @@
+GET http://localhost:5000/ritoapi/korzinochka 
+Content-Type: application/json
